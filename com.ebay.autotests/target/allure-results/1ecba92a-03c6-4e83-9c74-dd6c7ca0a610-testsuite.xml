@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1507651629605" stop="1507651774734" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Основные функции</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1507651629637" stop="1507651774336" status="passed">
+            <name>Проверка регистрации, поиска товара</name>
+            <title>Проверка регистрации, поиска товара</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1507651629647" stop="1507651653942" status="passed">
+                    <name>Дано открыта страница "http://www.ebay.com"</name>
+                    <title>Дано открыта страница "http://www.ebay.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651653942" stop="1507651690049" status="passed">
+                    <name>Когда пользователь выбрал ссылку регистрации</name>
+                    <title>Когда пользователь выбрал ссылку регистрации</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651690050" stop="1507651693068" status="passed">
+                    <name>Когда пользователь заполняет регистрационное поле "Имя" значением "Иван"</name>
+                    <title>Когда пользователь заполняет регистрационное поле "Имя" значением "Иван"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651693068" stop="1507651693327" status="passed">
+                    <name>Когда пользователь заполняет регистрационное поле "Фамилия" значением "Филюшин"</name>
+                    <title>Когда пользователь заполняет регистрационное поле "Фамилия" значением "Филюшин"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651693327" stop="1507651693771" status="passed">
+                    <name>Когда пользователь заполняет регистрационное поле "Email" значением "123@mail.ru"</name>
+                    <title>Когда пользователь заполняет регистрационное поле "Email" значением "123@mail.ru"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651693771" stop="1507651694126" status="passed">
+                    <name>Когда пользователь заполняет регистрационное поле "Пароль" значением "ivanf@yandex.ru"</name>
+                    <title>Когда пользователь заполняет регистрационное поле "Пароль" значением "ivanf@yandex.ru"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651694127" stop="1507651694345" status="passed">
+                    <name>Тогда пользователь нажимает на кнопку зарегистрироваться</name>
+                    <title>Тогда пользователь нажимает на кнопку зарегистрироваться</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651694345" stop="1507651726026" status="passed">
+                    <name>Дано открыта страница "http://www.ebay.com"</name>
+                    <title>Дано открыта страница "http://www.ebay.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651726027" stop="1507651731776" status="passed">
+                    <name>Когда пользователь выбрал ссылку входа в магазин</name>
+                    <title>Когда пользователь выбрал ссылку входа в магазин</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651731776" stop="1507651733086" status="passed">
+                    <name>Когда пользователь заполняет поле "Логин" значением "ivanf@yandex.ru"</name>
+                    <title>Когда пользователь заполняет поле "Логин" значением "ivanf@yandex.ru"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651733086" stop="1507651733656" status="passed">
+                    <name>Когда пользователь заполняет поле "Пароль" значением "7898pavel"</name>
+                    <title>Когда пользователь заполняет поле "Пароль" значением "7898pavel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651733656" stop="1507651752560" status="passed">
+                    <name>Тогда пользователь нажимает на кнопку входа в систему</name>
+                    <title>Тогда пользователь нажимает на кнопку входа в систему</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651752560" stop="1507651752851" status="passed">
+                    <name>Тогда пользователь заполняет поле поиска товара значением "blackberry"</name>
+                    <title>Тогда пользователь заполняет поле поиска товара значением "blackberry"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651752852" stop="1507651762045" status="passed">
+                    <name>Когда пользователь нажимает на кнопку "Найти"</name>
+                    <title>Когда пользователь нажимает на кнопку "Найти"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651762045" stop="1507651762157" status="passed">
+                    <name>Тогда на странице отображается "50" товаров</name>
+                    <title>Тогда на странице отображается "50" товаров</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651762158" stop="1507651774284" status="passed">
+                    <name>Когда пользователь выполняет выход из учётной записи</name>
+                    <title>Когда пользователь выполняет выход из учётной записи</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507651774284" stop="1507651774332" status="passed">
+                    <name>Тогда выход из учётной записи выполнен</name>
+                    <title>Тогда выход из учётной записи выполнен</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка регистрации, поиска товара"/>
+                <label name="feature" value="Основные функции"/>
+                <label name="host" value="Dell-PC"/>
+                <label name="thread" value="980@Dell-PC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Основные функции"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
